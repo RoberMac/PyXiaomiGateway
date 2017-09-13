@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name = 'PyXiaomiGateway',
     packages = ['PyXiaomiGateway'],
-    install_requires=['pyCrypto==2.6.1'],
+    install_requires=['pycryptodome==3.4.5'],
     version = '0.3.2',
     description = 'a library to communicate with the Xiaomi Gateway',
     author='Daniel Høyer Iversen',
